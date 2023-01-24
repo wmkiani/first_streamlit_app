@@ -2,9 +2,10 @@ import streamlit
 import pandas
 
 
-streamlit.markdown("<h1 style='text-align: center; color: Blue'>Some title</h1>", unsafe_allow_html=True)
-streamlit.title ('My Parent New Healthy Diner')
-streamlit.header ('🍽 Breakefast Menu 🍽')
+streamlit.markdown("<h1 style='text-align: center; color: Blue'>My Parent New Healthy Diner</h1>", unsafe_allow_html=True)
+#streamlit.title ('My Parent New Healthy Diner')
+streamlit.markdown("<p style='text-align: center; color: Blue'>'🍽 Breakefast Menu 🍽'</p>", unsafe_allow_html=True)
+#streamlit.header ('🍽 Breakefast Menu 🍽')
 streamlit.text ('🥔🥞 Allu Paratha 🥔🥞')
 streamlit.text ('🥚🥞 Anda Paratha 🥚🥞')
 streamlit.text ('🍖 Qeema Paratha 🍖')
