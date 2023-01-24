@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 
+streamlit.markdown("<h1 style='text-align: center; color: red;'>Some title</h1>", unsafe_allow_html=True)
 streamlit.title ('My Parent New Healthy Diner')
 streamlit.header ('🍽 Breakefast Menu 🍽')
 streamlit.text ('🥔🥞 Allu Paratha 🥔🥞')
