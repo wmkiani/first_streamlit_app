@@ -3,7 +3,7 @@ import pandas
 
 streamlit.title ('My Parent New Healthy Diner')
 streamlit.header ('🍽 Breakefast Menu 🍽')
-\t streamlit.text ('🥔🥞 Allu Paratha 🥔🥞')
+streamlit.text ('🥔🥞 Allu Paratha 🥔🥞')
 streamlit.text ('🥚🥞 Anda Paratha 🥚🥞')
 streamlit.text ('🍖 Qeema Paratha 🍖')
 streamlit.text ('🥛☕ Doodh Pati 🥛☕')
