@@ -10,7 +10,7 @@ streamlit.markdown("<p style='text-align: center; color: Blue'>'🥔🥞 Allu Pa
 #streamlit.text ('🥔🥞 Allu Paratha 🥔🥞')
 streamlit.markdown("<p style='text-align: center; color: Blue'>'🥚🥞 Anda Paratha 🥚🥞'</p>", unsafe_allow_html=True)
 #streamlit.text ('🥚🥞 Anda Paratha 🥚🥞')
-streamlit.markdown("<p style='text-align: center; color: Blue'>'🥞 Labanees Bread 🥞'</p>", unsafe_allow_html=True)
+streamlit.markdown("<p style='text-align: center; color: Blue'>'🥞 Lebanese Bread 🥞'</p>", unsafe_allow_html=True)
 #streamlit.text ('🍖 Qeema Paratha 🍖')
 streamlit.markdown("<p style='text-align: center; color: Blue'>'🥛☕ Doodh Pati 🥛☕'</p>", unsafe_allow_html=True)
 #streamlit.text ('🥛☕ Doodh Pati 🥛☕')
