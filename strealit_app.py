@@ -7,3 +7,4 @@ streamlit.text ('🥚🥞 Anda Paratha 🥚🥞')
 streamlit.text ('🍖 Qeema Paratha 🍖')
 streamlit.text ('🥛☕ Doodh Pati 🥛☕')
 
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
