@@ -1,4 +1,4 @@
 import streamlit
 
-title ('M Parent New Healthy Diner')
+streamlit.title ('M Parent New Healthy Diner')
 
