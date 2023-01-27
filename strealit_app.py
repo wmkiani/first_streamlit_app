@@ -1,6 +1,6 @@
 import streamlit
 import pandas
-
+import requests
 
 streamlit.markdown("<h1 style='text-align: center; color: Blue'>My Parent New Healthy Diner</h1>", unsafe_allow_html=True)
 #streamlit.title ('My Parent New Healthy Diner')
@@ -28,3 +28,6 @@ fruits_selected = streamlit.multiselect(' ',list(my_fruit_list.index), ['Avocado
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display the table on the page streamlit.dataframe(fruits_to_show)
 streamlit.dataframe(fruits_to_show)
+
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
