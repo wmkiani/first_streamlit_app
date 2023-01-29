@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 import requests
+import snowflake.connector
 
 streamlit.markdown("<h1 style='text-align: center; color: Blue'>My Parent New Healthy Diner</h1>", unsafe_allow_html=True)
 #streamlit.title ('My Parent New Healthy Diner')
