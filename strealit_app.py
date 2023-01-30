@@ -48,4 +48,6 @@ my_data_rows = my_cur.fetchall()
 streamlit.text("The Fruit list contais:")
 streamlit.dataframe(my_data_rows)
 
+add_my_fruit = streamlit.text_input('What fruit would you like add?','jackfruit')
+streamlit.write('Thanks for adding :', add_my_fruit)
 
