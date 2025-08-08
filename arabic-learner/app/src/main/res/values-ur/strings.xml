@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">عربی سیکھیں</string>
+    <string name="home">ہوم</string>
+    <string name="learn">سیکھیں</string>
+    <string name="progress">ترقی</string>
+    <string name="word_of_day">آج کا لفظ</string>
+    <string name="continue_learning">سیکھنا جاری رکھیں</string>
+    <string name="overall_progress">مکمل پیش رفت</string>
+    <string name="words">الفاظ</string>
+    <string name="completed">مکمل</string>
+    <string name="mark_complete">مکمل کریں</string>
+    <string name="lesson_not_found">سبق نہیں ملا</string>
+</resources>

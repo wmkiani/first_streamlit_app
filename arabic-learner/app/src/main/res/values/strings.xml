@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arabic Learner</string>
+    <string name="home">Home</string>
+    <string name="learn">Learn</string>
+    <string name="progress">Progress</string>
+    <string name="word_of_day">Word of the Day</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="overall_progress">Overall Progress</string>
+    <string name="words">Words</string>
+    <string name="completed">Completed</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="lesson_not_found">Lesson not found</string>
+</resources>
