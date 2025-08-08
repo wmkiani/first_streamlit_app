@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/learning_path_title"
+            android:textAppearance="@style/TextAppearance.ArabicLearningApp.Headline1"
+            android:textColor="@color/text_primary" />
+
+        <!-- Beginner Level -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/beginner_level"
+            android:textAppearance="@style/TextAppearance.ArabicLearningApp.Headline2"
+            android:textColor="@color/primary" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/beginner_lessons_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_lesson" />
+
+        <!-- Intermediate Level -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/intermediate_level"
+            android:textAppearance="@style/TextAppearance.ArabicLearningApp.Headline2"
+            android:textColor="@color/accent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/intermediate_lessons_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_lesson" />
+
+        <!-- Advanced Level -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/advanced_level"
+            android:textAppearance="@style/TextAppearance.ArabicLearningApp.Headline2"
+            android:textColor="@color/arabic_accent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/advanced_lessons_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_lesson" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

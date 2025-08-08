@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ArabicLearningApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/surface</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/surface</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Card style -->
+        <item name="materialCardViewStyle">@style/Widget.ArabicLearningApp.CardView</item>
+        
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.ArabicLearningApp.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.ArabicLearningApp.Button.Outlined</item>
+        
+        <!-- Progress bar style -->
+        <item name="progressBarStyle">@style/Widget.ArabicLearningApp.ProgressBar</item>
+    </style>
+    
+    <!-- Card View Style -->
+    <style name="Widget.ArabicLearningApp.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Widget.ArabicLearningApp.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/surface</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    
+    <style name="Widget.ArabicLearningApp.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Progress Bar Style -->
+    <style name="Widget.ArabicLearningApp.ProgressBar" parent="Widget.Material3.ProgressBar">
+        <item name="progressTint">@color/progress_fill</item>
+        <item name="trackTint">@color/progress_background</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="TextAppearance.ArabicLearningApp.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    
+    <style name="TextAppearance.ArabicLearningApp.Headline2" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    
+    <style name="TextAppearance.ArabicLearningApp.Body1" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    
+    <style name="TextAppearance.ArabicLearningApp.Body2" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>

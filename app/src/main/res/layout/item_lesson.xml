@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/divider"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Lesson Icon -->
+        <ImageView
+            android:id="@+id/lesson_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/circle_background"
+            android:padding="12dp"
+            android:src="@drawable/ic_lesson"
+            app:tint="@color/primary" />
+
+        <!-- Lesson Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lesson_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Greetings"
+                android:textAppearance="@style/TextAppearance.ArabicLearningApp.Body1"
+                android:textColor="@color/text_primary"
+                tools:text="Basic Greetings" />
+
+            <TextView
+                android:id="@+id/lesson_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Learn essential Arabic greetings"
+                android:textAppearance="@style/TextAppearance.ArabicLearningApp.Body2"
+                android:textColor="@color/text_secondary"
+                tools:text="Learn essential Arabic greetings" />
+
+            <TextView
+                android:id="@+id/lesson_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="3/5 words learned"
+                android:textAppearance="@style/TextAppearance.ArabicLearningApp.Body2"
+                android:textColor="@color/primary"
+                tools:text="3/5 words learned" />
+
+        </LinearLayout>
+
+        <!-- Status Icon -->
+        <ImageView
+            android:id="@+id/lesson_status"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_check_circle"
+            app:tint="@color/success"
+            tools:visibility="visible" />
+
+        <!-- Action Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lesson_action_button"
+            style="@style/Widget.ArabicLearningApp.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="@string/start_lesson"
+            android:textSize="12sp"
+            app:icon="@drawable/ic_play"
+            app:iconSize="16dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
