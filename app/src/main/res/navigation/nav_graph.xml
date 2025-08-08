@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.arabiclearning.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_lessons"
+        android:name="com.arabiclearning.app.ui.lessons.LessonsFragment"
+        android:label="@string/nav_lessons"
+        tools:layout="@layout/fragment_lessons" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.arabiclearning.app.ui.progress.ProgressFragment"
+        android:label="@string/nav_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/navigation_daily_words"
+        android:name="com.arabiclearning.app.ui.dailywords.DailyWordsFragment"
+        android:label="@string/nav_daily_words"
+        tools:layout="@layout/fragment_daily_words" />
+
+    <activity
+        android:id="@+id/lessonActivity"
+        android:name="com.arabiclearning.app.ui.lesson.LessonActivity"
+        android:label="Lesson"
+        tools:layout="@layout/activity_lesson" />
+
+    <activity
+        android:id="@+id/progressActivity"
+        android:name="com.arabiclearning.app.ui.progress.ProgressActivity"
+        android:label="Progress Details"
+        tools:layout="@layout/activity_progress" />
+
+    <activity
+        android:id="@+id/dailyWordsActivity"
+        android:name="com.arabiclearning.app.ui.dailywords.DailyWordsActivity"
+        android:label="Daily Words"
+        tools:layout="@layout/activity_daily_words" />
+
+</navigation>

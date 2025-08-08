@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arabic Learning</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_lessons">Lessons</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_daily_words">Daily Words</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Arabic Learning</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="streak_days">Day Streak</string>
+    <string name="total_words_learned">Words Learned</string>
+    <string name="start_lesson">Start Lesson</string>
+    <string name="practice_words">Practice Words</string>
+    
+    <!-- Lessons -->
+    <string name="lesson_basics">Arabic Basics</string>
+    <string name="lesson_greetings">Greetings</string>
+    <string name="lesson_numbers">Numbers</string>
+    <string name="lesson_colors">Colors</string>
+    <string name="lesson_family">Family</string>
+    <string name="lesson_food">Food &amp; Drinks</string>
+    <string name="lesson_animals">Animals</string>
+    <string name="lesson_weather">Weather</string>
+    <string name="lesson_travel">Travel</string>
+    <string name="lesson_business">Business</string>
+    
+    <!-- Progress -->
+    <string name="overall_progress">Overall Progress</string>
+    <string name="lesson_progress">Lesson Progress</string>
+    <string name="words_mastered">Words Mastered</string>
+    <string name="accuracy_rate">Accuracy Rate</string>
+    <string name="time_spent">Time Spent</string>
+    <string name="weekly_stats">Weekly Statistics</string>
+    
+    <!-- Daily Words -->
+    <string name="today_words">Today\'s Words</string>
+    <string name="word_of_day">Word of the Day</string>
+    <string name="practice_mode">Practice Mode</string>
+    <string name="quiz_mode">Quiz Mode</string>
+    <string name="flashcards">Flashcards</string>
+    
+    <!-- Common Actions -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="retry">Retry</string>
+    <string name="skip">Skip</string>
+    <string name="check">Check</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="pause_audio">Pause Audio</string>
+    
+    <!-- Messages -->
+    <string name="correct_answer">Correct!</string>
+    <string name="incorrect_answer">Incorrect. Try again!</string>
+    <string name="lesson_completed">Lesson Completed!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="keep_learning">Keep Learning</string>
+    <string name="daily_goal_achieved">Daily Goal Achieved!</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    
+    <!-- Language Names -->
+    <string name="english">English</string>
+    <string name="urdu">اردو</string>
+    <string name="arabic">العربية</string>
+    
+    <!-- Sample Arabic Words with Translations -->
+    <string name="word_hello_arabic">مرحبا</string>
+    <string name="word_hello_english">Hello</string>
+    <string name="word_hello_urdu">ہیلو</string>
+    
+    <string name="word_thank_you_arabic">شكرا</string>
+    <string name="word_thank_you_english">Thank you</string>
+    <string name="word_thank_you_urdu">شکریہ</string>
+    
+    <string name="word_water_arabic">ماء</string>
+    <string name="word_water_english">Water</string>
+    <string name="word_water_urdu">پانی</string>
+    
+    <string name="word_book_arabic">كتاب</string>
+    <string name="word_book_english">Book</string>
+    <string name="word_book_urdu">کتاب</string>
+    
+    <string name="word_house_arabic">بيت</string>
+    <string name="word_house_english">House</string>
+    <string name="word_house_urdu">گھر</string>
+</resources>
