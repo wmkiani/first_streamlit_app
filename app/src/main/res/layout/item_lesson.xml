@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:rippleColor="@color/primary_light">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Lesson Icon -->
+        <ImageView
+            android:id="@+id/image_lesson_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_lesson_icon"
+            android:padding="12dp"
+            android:src="@drawable/ic_lesson"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/primary" />
+
+        <!-- Lesson Title -->
+        <TextView
+            android:id="@+id/text_lesson_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Arabic Basics"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/text_lesson_progress"
+            app:layout_constraintStart_toEndOf="@+id/image_lesson_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Arabic Basics" />
+
+        <!-- Lesson Description -->
+        <TextView
+            android:id="@+id/text_lesson_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Learn the basics of Arabic alphabet and pronunciation"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/text_lesson_progress"
+            app:layout_constraintStart_toEndOf="@+id/image_lesson_icon"
+            app:layout_constraintTop_toBottomOf="@+id/text_lesson_title"
+            tools:text="Learn the basics of Arabic alphabet and pronunciation" />
+
+        <!-- Lesson Progress -->
+        <TextView
+            android:id="@+id/text_lesson_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75%"
+            android:textColor="@color/primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="75%" />
+
+        <!-- Lesson Stats -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@+id/image_lesson_icon"
+            app:layout_constraintTop_toBottomOf="@+id/text_lesson_description">
+
+            <TextView
+                android:id="@+id/text_lesson_words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_word"
+                android:drawablePadding="4dp"
+                android:text="15 words"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="15 words" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:drawableStart="@drawable/ic_time"
+                android:drawablePadding="4dp"
+                android:text="10 min"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="10 min" />
+
+        </LinearLayout>
+
+        <!-- Progress Bar -->
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_lesson"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            app:indicatorColor="@color/primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_lesson_icon"
+            app:layout_constraintTop_toBottomOf="@+id/text_lesson_words"
+            app:trackColor="@color/progress_background" />
+
+        <!-- Lock Icon (for locked lessons) -->
+        <ImageView
+            android:id="@+id/image_lesson_lock"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_lock"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/text_secondary" />
+
+        <!-- Completed Checkmark -->
+        <ImageView
+            android:id="@+id/image_lesson_completed"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_check_circle"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/success" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
