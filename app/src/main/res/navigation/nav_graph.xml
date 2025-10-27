@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.arabiclearning.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_learning_path"
+        android:name="com.arabiclearning.app.ui.learningpath.LearningPathFragment"
+        android:label="@string/nav_learning_path"
+        tools:layout="@layout/fragment_learning_path" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.arabiclearning.app.ui.progress.ProgressFragment"
+        android:label="@string/nav_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/navigation_daily_words"
+        android:name="com.arabiclearning.app.ui.dailywords.DailyWordsFragment"
+        android:label="@string/nav_daily_words"
+        tools:layout="@layout/fragment_daily_words" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.arabiclearning.app.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

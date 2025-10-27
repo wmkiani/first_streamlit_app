@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تعلم العربية</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_learning_path">Learning Path</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_daily_words">Daily Words</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Arabic Learning</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="today_goal">Today\'s Goal</string>
+    <string name="streak_days">Day Streak</string>
+    <string name="total_words_learned">Total Words Learned</string>
+    
+    <!-- Learning Path -->
+    <string name="learning_path_title">Learning Path</string>
+    <string name="beginner_level">Beginner</string>
+    <string name="intermediate_level">Intermediate</string>
+    <string name="advanced_level">Advanced</string>
+    <string name="lesson_completed">Completed</string>
+    <string name="lesson_in_progress">In Progress</string>
+    <string name="lesson_locked">Locked</string>
+    
+    <!-- Progress -->
+    <string name="progress_title">Your Progress</string>
+    <string name="overall_progress">Overall Progress</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="monthly_progress">Monthly Progress</string>
+    <string name="accuracy_rate">Accuracy Rate</string>
+    <string name="words_mastered">Words Mastered</string>
+    
+    <!-- Daily Words -->
+    <string name="daily_words_title">Daily Words</string>
+    <string name="word_of_the_day">Word of the Day</string>
+    <string name="practice_words">Practice Words</string>
+    <string name="new_words">New Words</string>
+    <string name="review_words">Review Words</string>
+    
+    <!-- Common Actions -->
+    <string name="start_lesson">Start Lesson</string>
+    <string name="continue_lesson">Continue</string>
+    <string name="practice_now">Practice Now</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    
+    <!-- Language Selection -->
+    <string name="select_language">Select Your Language</string>
+    <string name="english">English</string>
+    <string name="urdu">اردو</string>
+    <string name="arabic">العربية</string>
+    
+    <!-- Categories -->
+    <string name="category_basics">Basic Words</string>
+    <string name="category_greetings">Greetings</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_family">Family</string>
+    <string name="category_food">Food</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_weather">Weather</string>
+    <string name="category_travel">Travel</string>
+    
+    <!-- Urdu Translations -->
+    <string name="nav_home_urdu">ہوم</string>
+    <string name="nav_learning_path_urdu">سیکھنے کا راستہ</string>
+    <string name="nav_progress_urdu">ترقی</string>
+    <string name="nav_daily_words_urdu">روزانہ کے الفاظ</string>
+    <string name="welcome_message_urdu">عربی سیکھنے میں خوش آمدید</string>
+    
+    <!-- Arabic Translations -->
+    <string name="nav_home_arabic">الرئيسية</string>
+    <string name="nav_learning_path_arabic">مسار التعلم</string>
+    <string name="nav_progress_arabic">التقدم</string>
+    <string name="nav_daily_words_arabic">كلمات اليوم</string>
+    <string name="welcome_message_arabic">مرحباً بك في تعلم العربية</string>
+</resources>
